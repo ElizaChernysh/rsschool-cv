@@ -6,7 +6,7 @@
 
 📞 **380688622069**
 
-<div id="header" align="center">
+<div id="contacts" align="left">
   <a href="https://t.me/Elizachernysh"><img src="https://osx.telegram.org/updates/site/logo.png" width="60"/></a>
   <a href="https://github.com/ElizaChernysh"><img src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png" width="60"/></a>
   <a href="https://www.linkedin.com/in/eliza-chernysh-28a40a239/"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="60"/></a>
