@@ -56,6 +56,44 @@ See some of my projects at:
 [GitHub Code](https://elizachernysh.github.io/museum-landing/https://elizachernysh.github.io/miami-landing/)
 
 #
+### <img src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt="logo of kata" width="20"> Code(example)
+
+6 kyu - Detect Pangram
+
+_A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant)._
+
+_Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation._
+
+```
+function isPangram(string){
+  const str = string.replace(/[^a-zA-Z]/g, "").toLowerCase();
+  const countOfLetters = 25;
+  
+  if (str.length < 25) {
+    return false;
+  }
+  
+  let count = 0;
+  
+ let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+  
+  for (let i = 0; i < letters.length; i++) {
+    if (str.includes(letters[i])) {
+      count++;
+      letters.splice(i, 1);
+      i--;
+    }
+  }
+  
+  if (count <= 25) {
+    return false;
+  }
+  
+  return true;
+}
+```
+
+#
 ### 👩🏻‍🎓 EDUCATION
 
 _Institution - Taras Shevchenko National University of Kyiv
