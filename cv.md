@@ -1,6 +1,7 @@
 # CV
 
-### Elizaveta Chernysh
+### <img src="https://avatars.githubusercontent.com/u/82468286?v=4" width="100"> &nbsp;&nbsp; Elizaveta Chernysh 
+
 
 #
 ### CONTACTS
