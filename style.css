@@ -19,8 +19,43 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, input {
 ol, ul {
   list-style: none;
 }
+h1 {
+  margin-bottom: 30px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.preview {
+  display: flex;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.fullname {
+
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.icons {
+  margin-bottom: 10px;
+}
 
 .container {
   max-width: 1200px;
   margin: auto;
+}
+
+.contact-links{
+  display: flex;
+}
+
+.contact-link:not(:last-child){
+  margin-right: 10px;
 }
