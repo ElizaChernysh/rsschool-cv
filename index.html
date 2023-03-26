@@ -91,18 +91,19 @@
           <ul>
             <li class="work">
               <h4 class="info">Landing page for soul :)</h4>
-                <a href="https://elizachernysh.github.io/Ukraine_gallery/" class="work-links">Demo</a>
-                <a href="https://elizachernysh.github.io/Ukraine_gallery/" class="work-links">GitHub Code</a>
+
+                <a href="https://elizachernysh.github.io/Ukraine_gallery/" class="work-link">Demo</a>
+                <a href="https://elizachernysh.github.io/Ukraine_gallery/" class="work-link">GitHub Code</a>
             </li>
             <li class="work">
               <h4 class="info">Landing page for Museum</h4>
-                <a href="https://elizachernysh.github.io/museum-landing/" class="work-links">Demo</a>
-                <a href="https://elizachernysh.github.io/museum-landing/" class="work-links">GitHub Code</a>
+                <a href="https://elizachernysh.github.io/museum-landing/" class="work-link">Demo</a>
+                <a href="https://elizachernysh.github.io/museum-landing/" class="work-link">GitHub Code</a>
             </li>
             <li class="work">
               <h4 class="info">Landing page for Miami</h4>
-                <a href="https://elizachernysh.github.io/museum-landing/https://elizachernysh.github.io/miami-landing" class="work-links">Demo</a>
-                <a href="https://elizachernysh.github.io/museum-landing/https://elizachernysh.github.io/miami-landing/" class="work-links">GitHub Code</a>
+                <a href="https://elizachernysh.github.io/museum-landing/https://elizachernysh.github.io/miami-landing" class="work-link">Demo</a>
+                <a href="https://elizachernysh.github.io/museum-landing/https://elizachernysh.github.io/miami-landing/" class="work-link">GitHub Code</a>
             </li>
           </ul>
         </section>
@@ -110,8 +111,9 @@
         <section class="code">
           <h3 class="title title-code">Code(example)</h3>
           <h5 class="name-of-kyu">6 kyu - Detect Pangram</h5>
-          <p>A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).</p>
-          <p>Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.</p>
+          <p class="code-descriptio"><i>A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).</i></p>
+
+          <p class="code-descriptio"><i>Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.</i></p>
 
           <div class="example-code">
             <samp>
@@ -119,7 +121,7 @@
               function isPangram(string){<br>
                 const str = string.replace(/[^a-zA-Z]/g, "").toLowerCase();<br>
                 const countOfLetters = 25;<br>
-                
+                <br>
                 if (str.length < 25) {<br>
                   return false;<br>
                 }<br>

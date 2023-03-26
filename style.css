@@ -37,6 +37,23 @@ section {
 
 }
 
+.role {
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.experience-description {
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-bottom: 5px;
+}
+.work-link {
+  display: block;
+  padding-bottom: 5px;
+}
+
 .title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -58,4 +75,12 @@ section {
 
 .contact-link:not(:last-child){
   margin-right: 10px;
+}
+
+.code-descriptio {
+  margin-bottom: 15px;
+}
+
+.name-of-kyu {
+  margin-bottom: 10px;
 }
